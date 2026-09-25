@@ -33,6 +33,6 @@ This release uses the standard v1 pet atlas:
 
 ## Install
 
-[Install Bleu](codex://pets/install?name=Bleu&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcargo-culture%2Fpets%2Fmain%2Frelease%2Fanimals%2Fbleu%2Fspritesheet.webp&description=A%20derpy%20chibi%20Bernese%20Mountain%20Dog.%20Named%20like%20the%20cheese.&spriteVersionNumber=1)
+[Install Bleu](codex://pets/install?name=Bleu&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcargo-culture%2Fpets%2Fmain%2Frelease%2Fanimals%2Fbleu%2Fspritesheet.webp)
 
 This opens the pet install flow using the raw `spritesheet.webp` from this directory.

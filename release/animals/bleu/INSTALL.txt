@@ -1,0 +1,20 @@
+INSTALL BLEU
+
+Extract Bleu.zip first. Keep the installer files beside pet.json and
+spritesheet.webp. No network connection or administrator access is needed.
+
+Windows: Double-click Install-Bleu.cmd in the extracted folder.
+macOS: Double-click Install Bleu.command. If macOS will not open it,
+open Terminal, type bash followed by a space, drag Install Bleu.command
+into Terminal, and press Return.
+
+Restart Codex, then open its pet picker and select Bleu. A Codex client
+with custom pets support is required; these installers only copy files.
+
+Default destination: ~/.codex/pets/bleu (on Windows, under your user profile).
+If CODEX_HOME is set, the destination is CODEX_HOME/pets/bleu instead.
+Running again replaces Bleu's two files. Other pets are left alone.
+Both files are checked against SHA-256 checksums before and after copying.
+
+Manual installation: Copy pet.json and spritesheet.webp together into
+the destination above. Keep both filenames unchanged.

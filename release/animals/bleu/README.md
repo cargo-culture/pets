@@ -33,6 +33,12 @@ This release uses the standard v1 pet atlas:
 
 ## Install
 
-[Install Bleu](codex://pets/install?name=Bleu&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2Fcargo-culture%2Fpets%2Fmain%2Frelease%2Fanimals%2Fbleu%2Fspritesheet.webp)
+1. [Download Bleu.zip](https://raw.githubusercontent.com/cargo-culture/pets/main/release/animals/bleu/Bleu.zip) (about 2.2 MB) and extract it.
+2. **Windows:** Double-click `Install-Bleu.cmd`. **macOS:** Double-click `Install Bleu.command`. If it will not open, type `bash ` in Terminal, drag the command file into Terminal, and press Return.
+3. Restart Codex, then select Bleu in the pet picker. Your client must support custom pets.
 
-This opens the pet install flow using the raw `spritesheet.webp` from this directory.
+Keep the extracted files together. The installers work offline, verify SHA-256 checksums, and require no administrator access. They install into `~/.codex/pets/bleu` (Windows: `%USERPROFILE%\.codex\pets\bleu`), or the `pets/bleu` folder under `CODEX_HOME` if that environment variable is set. Running again replaces Bleu's two files and leaves other pets alone.
+
+For manual installation, create that destination folder and copy [pet.json](pet.json) and [spritesheet.webp](spritesheet.webp) into it, keeping both filenames unchanged. The archive contains the same original v1 assets; no art or metadata changes are required.
+
+Installer sources: [Windows launcher](Install-Bleu.cmd), [PowerShell](Install-Bleu.ps1), [macOS](Install%20Bleu.command). Download the ZIP for installation; the scripts need the adjacent assets.
